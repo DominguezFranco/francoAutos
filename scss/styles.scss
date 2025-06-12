@@ -8,6 +8,7 @@
 @import "./layout/sucursales";
 @import "./layout/nosotros";
 @import "./layout/footer";
+@import "./layout/mediaqueries";
 
 
 html,body{
@@ -20,12 +21,3 @@ html,body{
     flex-direction: column;
 }
 
-@media (max-width: 400px) {
-    .sala {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        object-fit: cover;
-        margin-top: 10px;
-    }
-}
