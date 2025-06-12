@@ -1,0 +1,35 @@
+.articulo{
+    @extend %cards;
+}
+
+.modelos{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.section-modelos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.boton{
+    background-color: $color-primario;
+    color: #ffff;
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+}
+
+.modelos-title{
+    text-align: center;
+}

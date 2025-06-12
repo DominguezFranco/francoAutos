@@ -1,0 +1,22 @@
+.sucursales-title{
+    @extend %titulos;
+}
+.sucursales-p{
+    @extend %titulos;
+}
+
+.sucursales{
+    @extend %cards;
+}
+.section-sucursales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sucursal-img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
